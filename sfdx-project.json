@@ -1,11 +1,15 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
+  "packageDirectories":[
+     {
+        "path":"./es-base-objects",
+        "default":false
+     },
+     {
+        "path":"./es-base-styles",
+        "default":true
+     }
   ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
+  "namespace":"",
+  "sfdcLoginUrl":"https://login.salesforce.com",
+  "sourceApiVersion":"48.0"
 }
